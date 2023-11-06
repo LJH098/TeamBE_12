@@ -1,0 +1,16 @@
+server:
+  servlet:
+    encoding:
+      charset: utf-8
+      force: true
+  port: 8080
+spring:
+  h2:
+    console:
+      enabled: true
+  mvc:
+    dispatch-options-request: true
+logging:
+  level:
+    '[pickup_shuttle.pickup]': DEBUG
+    '[org.hibernate.type]': TRACE
